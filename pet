@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Медіатека</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #1e293b;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #0f4c81;
+      margin-bottom: 30px;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+    a {
+      display: block;
+      padding: 14px 20px;
+      background-color: #ffffff;
+      color: #0f4c81;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Медіатека</h1>
+
+  <div class="menu">
+    <a href="#music">Музика</a>
+    <a href="video.html">Відео</a>
+  </div>
+
+</body>
+</html>
